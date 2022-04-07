@@ -1,0 +1,5 @@
+*Create Table User*
+npx sequelize-cli model:generate --name user --attributes email:string,password:string,name:string,status:string
+
+*Create Table Profile*
+npx sequelize-cli model:generate --name profile --attributes phone:string,gender:string,address:string,idUser:integer
